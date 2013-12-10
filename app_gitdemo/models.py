@@ -1,3 +1,5 @@
 from django.db import models
 
-# Create your models here.
+class AWBS(models.Model): # model chua KHONG VAN DON
+    number = models.CharField(max_length=15)        
+    dateCreated = models.DateField()
